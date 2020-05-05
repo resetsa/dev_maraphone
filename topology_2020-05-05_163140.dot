@@ -1,0 +1,22 @@
+digraph  {
+r1 [cap=""];
+sw5 [cap=""];
+sw7 [cap=""];
+sw6 [cap=""];
+sw4 [cap=""];
+r2 [cap=R];
+r3 [cap=R];
+sw5 -> sw7  [interfaces="['Et0/2', 'Et0/1']", key=0, w=1];
+sw5 -> sw6  [interfaces="['Et0/1', 'Et0/1']", key=0, w=1];
+sw5 -> sw4  [interfaces="['Et0/0', 'Et0/1']", key=0, w=1];
+sw7 -> r3  [interfaces="['Et0/3', 'Et0/0']", key=0, w=1];
+sw7 -> sw6  [interfaces="['Et0/2', 'Et0/2']", key=0, w=1];
+sw7 -> sw5  [interfaces="['Et0/1', 'Et0/2']", key=0, w=1];
+sw6 -> r2  [interfaces="['Et0/3', 'Et0/0']", key=0, w=1];
+sw6 -> sw7  [interfaces="['Et0/2', 'Et0/2']", key=0, w=1];
+sw6 -> sw5  [interfaces="['Et0/1', 'Et0/1']", key=0, w=1];
+sw6 -> sw4  [interfaces="['Et0/0', 'Et0/2']", key=0, w=1];
+sw4 -> r1  [interfaces="['Et0/0', 'Et0/0']", key=0, w=1];
+sw4 -> sw6  [interfaces="['Et0/2', 'Et0/0']", key=0, w=1];
+sw4 -> sw5  [interfaces="['Et0/1', 'Et0/0']", key=0, w=1];
+}
