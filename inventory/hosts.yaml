@@ -1,0 +1,25 @@
+---
+r1:
+  hostname: 192.168.40.14
+  data:
+    role: gw
+
+sw5:
+  hostname: 192.168.40.10
+  data:
+    role: core
+
+sw4:
+  hostname: 192.168.40.11
+  data:
+    role: core
+
+sw6:
+  hostname: 192.168.40.12
+  data:
+    role: access
+
+sw7:
+  hostname: 192.168.40.13
+  data:
+    role: access

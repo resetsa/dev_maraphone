@@ -1,0 +1,12 @@
+---
+platform: ios
+username: cisco
+password: 
+
+connection_options:
+  netmiko:
+    device_type: cisco_ios
+  napalm:
+    extras:
+      optional_args:
+        transport: ssh

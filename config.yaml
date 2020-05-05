@@ -1,0 +1,13 @@
+---
+core:
+  num_workers: 100
+logging:
+  enabled: False
+
+
+inventory:
+  plugin: nornir.plugins.inventory.simple.SimpleInventory
+  options:
+    host_file: "~/nornir/inventory/hosts.yaml"
+    group_file: "~/nornir/inventory/groups.yaml"
+    defaults_file: "~/nornir/inventory/defaults.yaml"
