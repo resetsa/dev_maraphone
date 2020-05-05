@@ -8,6 +8,6 @@ logging:
 inventory:
   plugin: nornir.plugins.inventory.simple.SimpleInventory
   options:
-    host_file: "~/nornir/inventory/hosts.yaml"
-    group_file: "~/nornir/inventory/groups.yaml"
-    defaults_file: "~/nornir/inventory/defaults.yaml"
+    host_file: "inventory/hosts.yaml"
+    group_file: "inventory/groups.yaml"
+    defaults_file: "inventory/defaults.yaml"
