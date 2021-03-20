@@ -1,6 +1,6 @@
 graphviz==0.13
 jedi==0.14.1
-Jinja2==2.11.1
+Jinja2==2.11.3
 napalm==2.5.0
 netmiko==3.1.0
 networkx==2.4
